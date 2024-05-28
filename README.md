@@ -1,4 +1,4 @@
-**Parking Edge System Setup and Usage Guide**
+# Perception module for Intelligent Parking System deployed on Edge
 
 This repository contains code for a parking edge system designed to detect vehicles using a GoPro camera setup with a Jetson device. Follow the steps below to set up and use the system effectively.
 
@@ -10,7 +10,7 @@ This repository contains code for a parking edge system designed to detect vehic
 ### GoPro Camera Setup
 
 1. Follow the instructions provided in the [GoPro as Webcam on Linux](https://github.com/jschmid1/gopro_as_webcam_on_linux) repository to set up your GoPro camera as a webcam on your Linux system.
-2. Ensure that the GoPro camera is detected as USB connected on the GoPro screen.
+2. Ensure that the GoPro camera is detected as USB-connected on the GoPro screen.
 
 ### Calibration of GoPro Camera
 
@@ -28,7 +28,8 @@ This repository contains code for a parking edge system designed to detect vehic
      ```
      Follow the instructions provided in the terminal to define parking spots in the camera frame.
      <br><br>
-      <img width="644" alt="setregions copy" src="https://github.com/sai-manoj-v/intelligent-parking-system/assets/118486462/e3efe433-0a86-462f-909f-ac48959a2c51">
+     <img width="644" alt="set_regions" src="https://github.com/dheerajkallakuri/Intelligent-Parking-System-Edge/assets/23552796/147ace92-d7ab-439a-8025-1533036585ee">
+
 
    - Step 2: Detection Module
      ```
@@ -36,7 +37,7 @@ This repository contains code for a parking edge system designed to detect vehic
      ```
      Ensure to put the MongoDB connection string in the "Detection.py" file to connect to the database.
     <br><br>
-    <img width="752" alt="result" src="https://github.com/sai-manoj-v/intelligent-parking-system/assets/118486462/c4bae0f9-6e0a-46fc-b398-9c4a9cfc5f70">
+    <img width="752" alt="result" src="https://github.com/dheerajkallakuri/Intelligent-Parking-System-Edge/assets/23552796/2c216cb1-061c-439b-990d-d7c50d8e931e">
 
    - Step 3: Localization Module
      ```
