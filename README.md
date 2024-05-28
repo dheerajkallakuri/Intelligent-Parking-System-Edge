@@ -2,21 +2,21 @@
 
 This repository contains code for a parking edge system designed to detect vehicles using a GoPro camera setup with a Jetson device. Follow the steps below to set up and use the system effectively.
 
-### Prerequisites
+## Prerequisites
 
 - Ensure the edge system is up to date and running a Linux distribution with Nvidia drivers installed.
 - Install the correct version of PyTorch that supports CUDA.
 
-### GoPro Camera Setup
+## GoPro Camera Setup
 
 1. Follow the instructions provided in the [GoPro as Webcam on Linux](https://github.com/jschmid1/gopro_as_webcam_on_linux) repository to set up your GoPro camera as a webcam on your Linux system.
 2. Ensure that the GoPro camera is detected as USB-connected on the GoPro screen.
 
-### Calibration of GoPro Camera
+## Calibration of GoPro Camera
 
 1. Refer to the step-by-step tutorial [here](https://www.youtube.com/watch?v=3h7wgR5fYik) to calibrate your GoPro camera for optimal performance with the parking edge system.
 
-### Testing Modules
+## Testing Modules
 
 1. Navigate to the "test_modules" folder.
 
@@ -45,9 +45,10 @@ This repository contains code for a parking edge system designed to detect vehic
      ```
      Ensure to put the MongoDB connection string in the "Localization.py" file to connect to the database. Additionally, create an API key on Google Console for localization purposes.
 
-### Additional Notes
+## Video Demonstration
 
-- Ensure that all necessary dependencies are installed as per the requirements specified in the respective Python files.
-- Customize the settings and configurations as per your specific requirements and environment.
+For a visual demonstration of this project, please refer to the video linked below:
 
-Feel free to reach out if you encounter any issues or need further assistance with the setup and usage of the parking edge system.
+[Project Video Demonstration](https://youtu.be/PPt7d1hTMuw)
+
+[![Project Video Demonstration](https://img.youtube.com/vi/PPt7d1hTMuw/0.jpg)](https://www.youtube.com/watch?v=PPt7d1hTMuw)
