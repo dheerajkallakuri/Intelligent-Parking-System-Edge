@@ -2,6 +2,14 @@
 
 This repository contains code for a parking edge system designed to detect vehicles using a GoPro camera setup with a Jetson device. Follow the steps below to set up and use the system effectively.
 
+## Video Demonstration
+
+For a visual demonstration of this project, please refer to the video linked below:
+
+[Project Video Demonstration](https://youtu.be/PPt7d1hTMuw)
+
+[![Project Video Demonstration](https://img.youtube.com/vi/PPt7d1hTMuw/0.jpg)](https://www.youtube.com/watch?v=PPt7d1hTMuw)
+
 ## Prerequisites
 
 - Ensure the edge system is up to date and running a Linux distribution with Nvidia drivers installed.
@@ -44,11 +52,3 @@ This repository contains code for a parking edge system designed to detect vehic
      python3 Localization.py
      ```
      Ensure to put the MongoDB connection string in the "Localization.py" file to connect to the database. Additionally, create an API key on Google Console for localization purposes.
-
-## Video Demonstration
-
-For a visual demonstration of this project, please refer to the video linked below:
-
-[Project Video Demonstration](https://youtu.be/PPt7d1hTMuw)
-
-[![Project Video Demonstration](https://img.youtube.com/vi/PPt7d1hTMuw/0.jpg)](https://www.youtube.com/watch?v=PPt7d1hTMuw)
